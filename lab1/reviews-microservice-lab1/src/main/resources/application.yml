@@ -1,0 +1,8 @@
+server:
+  port: 8181
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/review_microservice
+    username: microservices
+    password: microservices
+    driver-class-name: com.mysql.jdbc.Driver
