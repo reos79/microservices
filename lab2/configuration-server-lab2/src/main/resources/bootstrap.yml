@@ -1,0 +1,8 @@
+#encrypt:
+   #key: microservices-key 
+encrypt:  
+  keyStore:
+    location: classpath:server.jks
+    password: microservices-storekey
+    alias: microserviceskey
+    secret: microservices-privatekey    

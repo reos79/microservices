@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: ConfigServer
+  profiles: 
+    active: native
+  cloud:
+    config:
+      server:
+        native :
+          searchLocations : file:D:/reos/microservices/config/
+     
